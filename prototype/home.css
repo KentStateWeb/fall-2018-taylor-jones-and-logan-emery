@@ -1,0 +1,202 @@
+img {
+  max-width: 60%;
+  height: auto;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  margin-right: 50px;
+  margin-left: 50px;
+  }
+  * {
+    box-sizing: border-box;
+    text-align: center;
+  }
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: Myriad Pro;
+}
+header {
+  color: white;
+  background-color: black;
+}
+ul{
+  color:white;
+}
+blockquote {
+  color: #333;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+h1, h2, h3{
+  color: #ac7f07;
+}
+h1,h2 {
+  font-size: 25px;
+}
+h1 {
+  margin-top: 60px;
+  margin-bottom: 15px;
+
+}
+h2 {
+  margin-top: 70px;
+}
+h3 {
+  font-size:18px;
+}
+p {
+  color: white;
+  margin-left: 45px;
+  margin-right:45px;
+  margin-bottom: 70px;
+}
+u {
+  text-decoration: none;
+  border-bottom: 1px solid #333;
+}
+nav {
+  background-color:#333;
+  padding-top: 15px;
+  padding-bottom: 0px;
+  border-bottom: 1px solid #ac7f07;
+
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li{
+  padding-bottom: 10px;
+}
+.contact{
+  color: #ac7f07;
+  border-top: 1px solid #ac7f07;
+  background-color: black;
+  border-bottom: 1px solid #ac7f07;
+  padding: 7px;
+  margin: 0px;
+}
+main{
+  /* border-top: 1px solid #ac7f07; */
+  background-color: black;
+}
+footer {
+    background-color: #333;
+    padding: 10px;
+    border-top: 1px solid #ac7f07;
+    margin-top: 80px;
+}
+a {
+  color: #ac7f07;
+  text-decoration: none;
+}
+a:hover{
+  color: black;
+}
+.navigation {
+  font-weight:bold;
+  text-transform:uppercase;
+}
+.email{
+  text-decoration: underline;
+}
+.bottom {
+  font-size: 15px;
+  font-weight: normal;
+}
+@media screen and (min-width: 700px){
+  .navigation
+{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+.calendar {
+      background: black;
+      box-sizing: border-box;
+      padding: 18px;
+      height: 400px;
+      width: 400px;
+      border: 3px solid #ac7f07;
+      margin-left:auto;
+      margin-right:auto;
+    }
+    header {
+      overflow: clear;
+      position: relative;
+    }
+    h2 {
+      font-family: Myriad pro;
+      font-size: 18px;
+      font-weight: 700;
+      margin: 0 0 10px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #ac7f07
+    }
+    button {
+      position: absolute;
+      top: -4px;
+      color: #ac7f07;
+      background-color: black;
+      border: 1px solid #ac7f07;
+    }
+    button:first-child {
+      left: 0;
+
+    }
+    button:last-child {
+      right: 0;
+    }
+    table {
+      background: #333;
+      border-collapse: collapse;
+      color: ##ac7f07;
+      font-family: myriad pro;
+      font-size: 15px;
+      width: 100%;
+      height:90%;
+
+    }
+    td {
+      border: 3px solid black;
+      color: white;
+      line-height: 22px;
+      text-align: center;
+
+    }
+    tr:first-child td {
+      color: #ac7f07;
+      font-weight: bold;
+    }
+    .selected {
+      background: #ac7f07;
+      border: 0;
+    }
+
+    .selected:hover{
+      background: lightgrey;
+      color:#ac7f07;
+    }
+
+    /* Slider*/
+
+    .carousel-cell {
+    	width: 100%;
+      border: 0px;
+    }
+
+    .carousel-cell img {
+    	width: 100%;
+    	height: auto;
+    }
+
+    /* Ensures that Flickity waits until CSS has loaded to calculate the height of the cells */
+    .carousel:after {
+      content: 'flickity';
+      display: none; /* hide :after */
+    }

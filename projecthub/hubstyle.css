@@ -1,0 +1,40 @@
+header {
+border-top: 1px solid #ac7f07;
+border-bottom: 1px solid #ac7f07;
+margin-bottom: 40px;
+}
+body {
+  margin-left: 30px;
+  padding: 0;
+  background-color: black;
+  font-family: Myriad Pro;
+  font-size: 25px;
+}
+.title { color: #ac7f07;
+     font-size: 30px;
+     font-weight:bold;
+}
+h3 { color: white;
+     font-size: 12px;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: #333
+}
+li{
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+.footer {
+  border-top: 1px solid #ac7f07;
+  margin-top: 30px;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+a:hover{
+  color: #ac7f07;
+}
